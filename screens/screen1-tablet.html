@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Tablet - Encriptador</title>
+    <link rel="stylesheet" href="styles-tablet.css"> <!-- Vincula el CSS para tablet -->
+</head>
+<body>
+    <main class="encryptor-container">
+      <img src="images/Company_logo.svg" alt="" class="logo" />
+      
+      <form>
+        <label for="encryptInput" class="visually-hidden">Ingrese el texto aqui</label>
+        <textarea id="encryptInput" class="input-text" placeholder="Ingrese el texto aqui" aria-label="Ingrese el texto aqui"></textarea>
+        
+        <div class="info-container">
+          <img src="images/info_icon.svg" alt="" class="info-icon" />
+          <p class="info-text">Solo letras minúsculas y sin acentos</p>
+        </div>
+        
+        <div class="button-container">
+          <button type="button" class="encrypt-button">Encriptar</button>
+          <button type="button" class="decrypt-button">Desencriptar</button>
+        </div>
+      </form>
+    
+      <section class="result-container">
+        <div class="result-content">
+          <h2 class="result-title">Ningún mensaje fue encontrado</h2>
+          <p class="result-description">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
